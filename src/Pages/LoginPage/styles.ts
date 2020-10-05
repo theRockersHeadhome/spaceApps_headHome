@@ -17,9 +17,16 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
+    inputs: {
+        width: '100%',
+        alignItems: 'center'
+    },
     textInput: {
         backgroundColor: '#f7fbfd',
-        height: 50
+        height: 50,
+        marginBottom: 10,
+        width: '80%',
+        borderRadius: 5,
     }
 });
 
